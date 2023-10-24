@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(252, 248, 242);;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    border-radius: 20px;
+    background-color: rgb(247, 210, 168);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    height: 8vh;
+}
+
+nav li {
+    display: inline-block;
+    height: 48px;
+    width: 80px;
+    margin-left: 5%;
+}
+
+nav ul li a {
+    display: inline-block;
+    margin-top: 35%;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 680;
+}
+
+nav ul li a:hover {
+    color: rgb(150, 126, 97);
+}
+
+section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article {
+    flex: 1;
+    border-radius: 12px;
+    padding: 15px;
+
+    ;
+}
+
+
+
+#bg-article {
+    background-image: url("./LOGO/las.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.small-pics {
+    border: 1px solid rgb(252, 222, 186);
+    border-radius: 10, 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 1%;
+    margin: 5px;
+    background-color: bisque;
+    text-align: justify;
+}
+
+.small-pics:hover {
+    box-shadow:
+            0 1px 1px hsl(0deg 0% 0% / 0.075),
+            0 2px 2px hsl(0deg 0% 0% / 0.075),
+            0 4px 4px hsl(0deg 0% 0% / 0.075),
+            0 8px 8px hsl(0deg 0% 0% / 0.075),
+            0 16px 16px hsl(0deg 0% 0% / 0.075);
+    transition: 0.5s;
+}
+.small-pics > img {
+    border-radius: 25px;
+}
+
+table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #FF007F;
+    text-align: center;
+}
+table td,
+table th {
+    border: 1px solid rgb(167, 166, 164);
+    padding: 8px;
+}
+
+table tr:hover {
+    background-color: #f5acac;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(247, 208, 161);
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+footer div {
+    flex: 1;
+    padding: 30px;
+}
+
+footer div p {
+    text-align: right;
+}
